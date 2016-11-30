@@ -1,0 +1,19 @@
+﻿<Window x:Name="overlay"
+        x:Class="Information.Overlay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Information"
+        xmlns:properties="clr-namespace:Information.Properties"
+        mc:Ignorable="d"
+        Title="Overlay" Height="350" Width="525" Topmost="True" WindowStyle="None" Background="Transparent" Foreground="{Binding Source={x:Static properties:Settings.Default}, Path=OverlayColor, Mode=TwoWay}" ShowInTaskbar="False" AllowsTransparency="True" WindowState="Maximized" Deactivated="overlay_Deactivated">
+    <Grid Background="Transparent">
+        <Label x:Name="time" Content="Time" Visibility="{Binding timeVisibility, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="34" Width="151" Foreground="{Binding Source={x:Static properties:Settings.Default}, Path=OverlayColor, Mode=TwoWay}" FontSize="24" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="{Binding timeMargin, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" VerticalContentAlignment="Center"/>
+        <Label x:Name="date" Content="Date" Visibility="{Binding dateVisibility, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="34" Width="151" Foreground="{Binding OverlayColor, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" FontSize="24" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="{Binding dateMargin, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" VerticalContentAlignment="Center"/>
+        <Label x:Name="cpu" Content="{Binding cpuString, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" Visibility="{Binding cpuVisibility, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" HorizontalAlignment="Right" VerticalAlignment="Top" Height="34" Width="151" Foreground="{Binding OverlayColor, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" FontSize="24" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="{Binding cpuMargin, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Label x:Name="memory" Content="Ram" Visibility="{Binding ramVisibility, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" HorizontalAlignment="Right" VerticalAlignment="Top" Height="34" Width="151" Foreground="{Binding OverlayColor, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" FontSize="24" FontWeight="Bold" FontFamily="Microsoft Sans Serif" Margin="{Binding ramMargin, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+        <Label x:Name="whenMoving" Content="Press &quot;Esc&quot; When Finished" Visibility="{Binding movingVisibility, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" HorizontalAlignment="Center" Margin="105,158,109,156" VerticalAlignment="Center" Foreground="{Binding OverlayColor, Mode=TwoWay, Source={x:Static properties:Settings.Default}}" FontFamily="Microsoft Sans Serif" FontSize="24" FontWeight="Bold" Width="311"/>
+
+    </Grid>
+</Window>

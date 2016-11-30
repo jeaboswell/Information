@@ -1,0 +1,78 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Information.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MainBackground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ButtonBackground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF2D2D30</Value>
+    </Setting>
+    <Setting Name="Meter_ListBackground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF2D2D30</Value>
+    </Setting>
+    <Setting Name="TextColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF0066CC</Value>
+    </Setting>
+    <Setting Name="MeterForeground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF0066CC</Value>
+    </Setting>
+    <Setting Name="Background" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ButtonColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF2D2D30</Value>
+    </Setting>
+    <Setting Name="OverlayColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#FF0066CC</Value>
+    </Setting>
+    <Setting Name="cpuString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CPU</Value>
+    </Setting>
+    <Setting Name="timeVisibility" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Visible</Value>
+    </Setting>
+    <Setting Name="dateVisibility" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Visible</Value>
+    </Setting>
+    <Setting Name="cpuVisibility" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Visible</Value>
+    </Setting>
+    <Setting Name="ramVisibility" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Visible</Value>
+    </Setting>
+    <Setting Name="movingVisibility" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hidden</Value>
+    </Setting>
+    <Setting Name="timeMargin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10,10,0,0</Value>
+    </Setting>
+    <Setting Name="dateMargin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10,44,0,0</Value>
+    </Setting>
+    <Setting Name="cpuMargin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0,10,10,0</Value>
+    </Setting>
+    <Setting Name="ramMargin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0,44,10,0</Value>
+    </Setting>
+    <Setting Name="MainTop" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="MainLeft" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="MainHeight" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">869</Value>
+    </Setting>
+    <Setting Name="MainWidth" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">960</Value>
+    </Setting>
+    <Setting Name="MainStartLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CenterSceen</Value>
+    </Setting>
+    <Setting Name="MainState" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
